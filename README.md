@@ -1,11 +1,14 @@
- createBoard mek e [][][]
-                   [][][]
-                   [][][]
+ createBoard mek e cebord
+ ```
+[][][]
+[][][]
+[][][]
+```
 ,checkWinner dys cek e wot kombineasen is corekt
 
-,drawWinner hu win
+,drawWinner desplei e winer
 
 ,autoReset ato reset decol
 ,resetButton mek resetart Button work
-,createBoard hu pelei naw
-,checkWinner cek if e dro ro win
+,createBoard who pelei naw
+,checkWinner checky if e dro ro who win
