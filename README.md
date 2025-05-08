@@ -1,17 +1,23 @@
-```createBoard``` mek e cebord lak dys
+```createBoard()``` - Tworzy plansze do gry
  ```
 [][][]
 [][][]
 [][][]
 ```
-```checkWinner``` dys cek e wot kombineasen is corekt
+```checkWinner``` 
 
-```drawWinner``` desplei e winer
+```drawWinner``` 
 
-```autoReset``` ato reset decol,
+```autoReset``` 
 
-```resetButton``` mek resetart Button work,
+```resetButton``` 
 
-```createBoard``` who pelei naw,
+```createBoard``` 
 
-```checkWinner``` checky if e dro ro win
+```checkWinner``` 
+
+```let gameBoard = ['', '', '', '', '', '', '', '', ''];```
+
+```let currentPlayer = 'X';```
+
+```let winningCombination = [];```
