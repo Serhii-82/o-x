@@ -1,5 +1,4 @@
- ```
- createBoard``` mek e cebord lak dys
+```createBoard``` mek e cebord lak dys
  ```
 [][][]
 [][][]
