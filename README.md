@@ -4,9 +4,9 @@
 [][][]
 [][][]
 ```
-,checkWinner dys cek e wot kombineasen is corekt
+checkWinner dys cek e wot kombineasen is corekt
 
-,drawWinner desplei e winer
+drawWinner desplei e winer
 
 ,autoReset ato reset decol
 ,resetButton mek resetart Button work
