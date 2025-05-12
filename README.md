@@ -4,19 +4,11 @@
 [][][]
 [][][]
 ```
-```checkWinner``` 
+```checkWinner``` -  check wins den mek text o/x  or it e draw den atometitkli reset
 
-```drawWinner``` 
+```resetButton``` - enbold hend restart
 
-```autoReset``` 
-
-```resetButton``` 
-
-```createBoard``` 
-
-```checkWinner``` 
-
-```let gameBoard = ['', '', '', '', '', '', '', '', ''];```
+```let gameBoard = ['', '', '', '', '', '', '', '', ''];```  
 
 ```let currentPlayer = 'X';```
 
