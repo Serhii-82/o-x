@@ -10,6 +10,6 @@
 
 ```let gameBoard = ['', '', '', '', '', '', '', '', ''];```  
 
-```let currentPlayer = 'X';``` - hou corent player
+```let currentPlayer = 'X';``` - hou player ei nau
 
 ```let winningCombination = [];``` cek corekt cobineson  if cobineson corekt den hu win if not den it edro
