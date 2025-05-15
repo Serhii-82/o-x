@@ -1,4 +1,4 @@
-```createBoard()``` - Tworzy plansze do gry
+```createBoard()``` - Creates game boards
  ```
 [][][]
 [][][]
