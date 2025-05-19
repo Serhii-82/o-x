@@ -11,3 +11,6 @@
 ```let currentPlayer = 'X';``` - hou player nau
 
 ```let winningCombination = [];``` cek corekt cobineson  if cobineson corekt den hu win if not den it edro
+
+``` function checkWinner()  ``` - check iktori wiktor combinations
+```
