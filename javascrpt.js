@@ -140,9 +140,6 @@ document.getElementById('message').textContent = 'Turn X';
 
 
 
-//cedtet tu  jaroslaw medvedenko
-
-
 
 
 
