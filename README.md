@@ -43,5 +43,6 @@ X | O | X
 O | X | O
 ---------
 X |   | O
-```Author
+```
+Author
 Serhii-82
