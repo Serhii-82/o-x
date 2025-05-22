@@ -1,48 +1,45 @@
-Kółko i Krzyżyk (Tic-Tac-Toe)
-A simple Tic-Tac-Toe game written in HTML, CSS, and JavaScript.
+# Kółko i Krzyżyk (Tic-Tac-Toe)
 
-Features
-Interactive 3x3 game board
-Two-player mode (X and O)
-Highlights the winning line
-Displays whose turn it is
-Automatic reset after a win or draw (3 seconds)
-Manual reset button
-How to Play
-Open index.html in your browser.
-Click on a cell to make your move.
-The turn alternates between X and O.
-After a win or a draw, the game resets automatically. You can also reset manually using the "Reset" button.
-Main Functions
-createBoard()
-Creates and displays the 3x3 game board.
+A simple, interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 
-handleCellClick(event)
-Handles a player's move, updates the board, checks for a win or draw.
+## Features
 
-checkWinner()
-Checks if there is a winning combination on the board.
+- Interactive 3x3 game board.
+- Two-player mode (X and O).
+- Highlights the winning line.
+- Displays whose turn it is.
+- Automatic reset after a win or draw (3 seconds).
+- Manual reset button.
 
-drawWinner()
-Highlights the winning line if someone wins.
+## How to Play
 
-autoReset()
-Automatically resets the game after a win or draw.
+1. Open `index.html` in your browser.
+2. Click on a cell to make your move.
+3. Players alternate turns between X and O.
+4. After a win or draw, the game resets automatically. You can also reset manually with the "Reset" button.
 
-resetButton
-Allows players to manually restart the game.
+## Main Functions
 
-Files
-index.html — Main HTML file
-staiel.css — Styles for the game board
-javascrpt.js — Game logic
-Example Game Board
+- **createBoard()**: Creates and displays the 3x3 board.
+- **handleCellClick(event)**: Handles moves, updates the board, and checks for win/draw.
+- **checkWinner()**: Checks if there is a winning combination.
+- **drawWinner()**: Highlights the winning line when someone wins.
+- **autoReset()**: Automatically resets the game after win/draw.
+- **resetButton**: Allows manual restart.
+
+## Files
+
+- `index.html` — Main HTML file.
+- `staiel.css` — Styles for the game.
+- `javascrpt.js` — Game logic.
+
+## Example Game Board
 ```
 X | O | X
----------
 O | X | O
----------
-X |   | O
+X | | O
 ```
-Author
-Serhii-82
+
+## Author
+
+[Serhii-82](https://github.com/Serhii-82)
