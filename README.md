@@ -37,11 +37,12 @@ index.html — Main HTML file
 staiel.css — Styles for the game board
 javascrpt.js — Game logic
 Example Game Board
-Code
-``X | O | X
+    ```
+X | O | X
 ---------
 O | X | O
 ---------
-X |   | O```
+X |   | O
+```
 Author
 Serhii-82
