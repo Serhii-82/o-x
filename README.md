@@ -8,7 +8,6 @@ A simple, interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 - Two-player mode (X and O).
 - Highlights the winning line.
 - Displays whose turn it is.
-- Automatic reset after a win or draw (3 seconds).
 - Manual reset button.
 
 ## How to Play
