@@ -25,10 +25,10 @@ function handleCellClick(event) {
   if (checkWinner()) {
     messageTurn.textContent = `${currentPlayer} wins!`;
     drawWinner();
-    autoReset();
+   
   } else if (gameBoard.every(cell => cell !== '')) {
     messageTurn.textContent = 'It\'s a draw!';
-    autoReset();
+
   } else {
     currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
     messageTurn.textContent = `Turn ${currentPlayer}`;
@@ -101,20 +101,7 @@ function drawWinner() {
   }
 }
 
-function autoReset() {
-  setTimeout(() => {
-    gameBoard = ['', '', '', '', '', '', '', '', ''];
-    currentPlayer = 'X';
-    const cells = document.querySelectorAll('.cell');
-    cells.forEach(cell => {
-      cell.textContent = '';
-      cell.addEventListener('click', handleCellClick);
-    });
-    const line = document.querySelector('.line');
-    if (line) line.remove();
-    document.getElementById('message').textContent = 'Turn X';
-  }, 3000); // 3 seconds
-}
+
 
 const resetButton = document.querySelector('#resetBtn');
 resetButton.addEventListener('click', () => {
